@@ -3,7 +3,6 @@ package com.example.springboothelloworld.servlet;
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
 import java.io.IOException;
-import java.util.logging.LogRecord;
 
 @WebFilter(filterName = "/helloFilter", urlPatterns = "/helloServlet")
 public class HelloFilter implements Filter {
